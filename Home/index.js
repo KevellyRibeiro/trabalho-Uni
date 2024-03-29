@@ -1,3 +1,3 @@
 const redirectContact = ()=>{
-    window.location.href = '../../Pages/index.html'
+    window.location.href = '../Form/form.html'
 }
