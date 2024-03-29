@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <script defer src="./javascript/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../AcademicSources/index.html">
+    <link rel="stylesheet" href="../Portifolio/index.html">
+    <link rel="stylesheet" href="../Form/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="containerHeader">
+        <div class="nameHeader">
+            <h1>Contato</h1>
+        </div>
+        <div>
+            <ul class="listaEncapsulada">
+                <li>
+                    <a href="../index.html">Quem sou ?</a>
+                </li>
+                <li>
+                    <a href="../AcademicSources/academic.html">Formação</a>
+                </li>
+                <li>
+                    <a href="../Portifolio/portifolio.html">Portifolio</a>
+                </li>
+                <li>
+                    <a href="form.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="containerDiv">
+
+
+        <form onsubmit="SendMsg(event)" class="FormInput">
+            <div><h1>Entre em contato comigo!</h1></div>
+            <div>
+                <span>Digite seu nome:</span>
+                <input type="text" id="NameUser">
+            </div>
+            <div>
+                <span>Digite seu email:</span>
+                <input type="email" id="EmailUser">
+            </div>
+            <div>
+                <span>Sua mensagem:</span>
+                <textarea id="MsgUser"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="btnEnv">
+        </form>
+    </div>
+
+        </div>
+</section>
+
+    <div class="footerDiv"></div>
+</body>
+</html>
