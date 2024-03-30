@@ -1,3 +1,3 @@
-const redirectContact = ()=>{
-    window.location.href = '../Form/form.html'
+const redirectContact = () => {
+    window.location.href = './Form/form.html'
 }
